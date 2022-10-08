@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'KakomiA';
+	src: url(./fonts/KakomiA.ttf);
+}
+@font-face {
+	font-family: 'misaki_gothic';
+	src: url(./fonts/misaki_gothic.ttf);
+}
+@font-face {
+	font-family: 'misaki_gothic_2nd';
+	src: url(./fonts/misaki_gothic_2nd.ttf);
+}
+@font-face {
+	font-family: 'PixelMplus10-Bold';
+	src: url(./fonts/PixelMplus10-Bold.ttf);
+}
+@font-face {
+	font-family: 'PixelMplus10-Regular';
+	src: url(./fonts/PixelMplus10-Regular.ttf);
+}
+@font-face {
+	font-family: 'PixelMplus12-Bold';
+	src: url(./fonts/PixelMplus12-Bold.ttf);
+}
+@font-face {
+	font-family: 'PixelMplus12-Regular';
+	src: url(./fonts/PixelMplus12-Regular.ttf);
+}
+
+
+
+html{
+    background-color: #D999FF;
+}
+body{
+    width:100%; /*ページ全体の幅は100%と指定する*/	
+    text-align:center; /*ページ全体を中央揃えにする*/
+    margin: 30vh 0;
+    color: #FFF7FF;
+    font-family: misaki_gothic_2nd;
+}
+.map {
+    margin: 35vh 0;
+}
+body h1{
+    font-size: 30px;
+}
+body p{
+    font-size: 25px;
+}
+.line {
+    margin: 35vh 0;
+}
+.line *{
+    margin: 3vh;
+}
+#wrap{ 
+    width: 960px;	   /*全体の幅を指定する*/  
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    text-align:left;   /*全体を左揃えにする。*/
+}
+
+.container *{
+    margin: 3vh;
+}
+/* .container{
+    text-align:center;
+    padding:20px 0;
+} */
