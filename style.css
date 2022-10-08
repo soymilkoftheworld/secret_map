@@ -40,16 +40,16 @@ body{
     font-family: misaki_gothic_2nd;
 }
 .map {
-    margin: 35vh 0;
+    margin: 30vh 0;
 }
 body h1{
-    font-size: 30px;
+    font-size: 35px;
 }
 body p{
     font-size: 25px;
 }
 .line {
-    margin: 35vh 0;
+    margin: 30vh 0;
 }
 .line *{
     margin: 3vh;
