@@ -11,41 +11,59 @@
 	src: url(./fonts/misaki_gothic_2nd.ttf);
 }
 @font-face {
-	font-family: 'PixelMplus10-Bold';
+	font-family: 'PixelMplus10_Bold';
 	src: url(./fonts/PixelMplus10-Bold.ttf);
 }
 @font-face {
-	font-family: 'PixelMplus10-Regular';
+	font-family: 'PixelMplus10_Regular';
 	src: url(./fonts/PixelMplus10-Regular.ttf);
 }
 @font-face {
-	font-family: 'PixelMplus12-Bold';
+	font-family: 'PixelMplus12_Bold';
 	src: url(./fonts/PixelMplus12-Bold.ttf);
 }
 @font-face {
-	font-family: 'PixelMplus12-Regular';
+	font-family: 'PixelMplus12_Regular';
 	src: url(./fonts/PixelMplus12-Regular.ttf);
 }
 
+/* html,body{
+    overflow: hidden
+} */
 
-
-html{
-    background-color: #D999FF;
-}
 body{
+    background-color: #D999FF;
+    height: 100%;
     width:100%; /*ページ全体の幅は100%と指定する*/	
     text-align:center; /*ページ全体を中央揃えにする*/
-    color: #FFF7FF;
+}
+body h1{
+    font-weight:normal
+}
+
+
+.fuchidori{
     font-family: misaki_gothic_2nd;
+    color: #FFF7FF;
+}
+
+.kakomi{
+    font-family: KakomiA;
+    color: #FFF7FF;
+}
+.mini{
+    font-family: KakomiA;
+    font-size: 10vw;
+    color: #FFF7FF;
+}
+.deka.en{
+    font-size: 15vw;
+}
+.deka.jp{
+    font-size: 10vw;
 }
 .map {
     margin: 25vh 0;
-}
-body h1{
-    font-size: 35px;
-}
-body p{
-    font-size: 25px;
 }
 .line {
     margin: 25vh 0;
